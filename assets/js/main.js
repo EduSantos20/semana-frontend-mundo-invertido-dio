@@ -18,4 +18,5 @@ btnSubscribe.addEventListener('click', async () => {
   //salvar no bando de dados
   const subscriptionId = await subscribeToHellfireClub(subscription)
   console.log(`Inscrito com sucesso:${subscriptionId}`)
+  alert('Inscrito com sucesso')
 })
